@@ -48,20 +48,52 @@ nav a {
   display: flex;
   padding-top: 70px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  align-items: center;
   background-repeat: no-repeat;
   height: 700px;
   width: 1200px;
-  align-items: center;
   margin: auto;
 }
 
 .mission {
-  display: flex;
   background-color: black;
-  flex-direction: column;
   width: 1200px;
   height: auto;
-  align-content: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+ .mission h2, .mission h4 {
+   margin: 15px auto;
+ }
+
+
+/* Tea of the Month Section */
+.tea {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 70px;
+  width: 1000px;
+  margin: auto;
 }
 
-.mission
+.monthly-tea {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+
+
+}
+
+.tea h4 {
+  margin: 0;
+}
