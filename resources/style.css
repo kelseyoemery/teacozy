@@ -14,14 +14,14 @@ header {
   align-items: center;
   position: fixed;
   top: 0;
-  flex-direction: row;
   background-color: black;
   border-bottom: 1px solid seashell;
   z-index: 1;
   height: 69px;
   width: 100%;
   color: seashell;
-  align-content: flex-start;margin-top: 0;
+  align-content: flex-start;
+  margin-top: 0;
 }
 
 nav a {
@@ -72,7 +72,7 @@ nav a {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  padding: 70px auto;
+  padding-top: 70px;
   width: 1000px;
   margin: auto;
 }
@@ -98,18 +98,19 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  align-content: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   background-repeat: no-repeat;
   height: 500px;
-  width: 100%;
-}
+  width: 1200px;
+  margin: 50px auto;
 
+
+}
 
 .addresses {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
 }
 
 .downtown {
@@ -117,7 +118,6 @@ nav a {
   flex-direction: column;
   background-color: black;
   width: 300px;
-  height: 300px;
   opacity: 1;
   margin: 15px 20px;
 
@@ -128,7 +128,6 @@ nav a {
   flex-direction: column;
   background-color: black;
   width: 300px;
-  height: 300px;
   opacity: 1;
   margin: 15px 20px;
 }
@@ -138,7 +137,20 @@ nav a {
   flex-direction: column;
   background-color: black;
   width: 300px;
-  height: 300px;
   opacity: 1;
   margin: 15px 20px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:  center;
+  margin: 20px;
+}
+
+.copyright {
+  align-self: flex-start;
 }
