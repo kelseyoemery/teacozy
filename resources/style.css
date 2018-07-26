@@ -97,36 +97,45 @@ nav a {
 .location {
   display: flex;
   flex-direction: column;
-  align-content: center;
   align-items: center;
-  justify-content: space-between;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   background-repeat: no-repeat;
   height: 500px;
-
+  width: 100%
+  margin:auto;
+  padding-top: 70px;
 }
 
-.location .addresses {
+.location img {
+  align-content: center;
+}
+
+.addresses {
   display: inline-flex;
-  flex-direction: row;
-  justify-content: space-between;
-
+  justify-content: center;
+  align-content: space-between;
 }
 
-.location .downtown {
+.downtown {
   background-color: black;
   width: 300px;
+  height: auto;
   opacity: 1;
+  margin: 15px 20px;
 }
 
-.location .bayside {
+.bayside {
   background-color: black;
   width: 300px;
+  height: auto;
   opacity: 1;
+  margin: 15px 20px;
 }
 
-.location .oakdale {
+.oakdale {
   background-color: black;
   width: 300px;
+  height: auto;
   opacity: 1;
+  margin: 15px 20px;
 }
