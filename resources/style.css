@@ -71,29 +71,62 @@ nav a {
 .tea {
   display: flex;
   flex-flow: column wrap;
-  align-items: center;
   justify-content: center;
-
   padding-top: 70px;
   width: 1000px;
   margin: auto;
 }
 
 .monthly-tea {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-
 }
 
 .tea img {
   height: 200px;
   width: 300px;
-
-
+  margin: 0px 15px;
 }
 
 .tea h4 {
-  margin: 0;
+  margin-top: 10px;
+}
+
+/* Locations Section */
+.location {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+
+}
+
+.location .addresses {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.location .downtown {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+}
+
+.location .bayside {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+}
+
+.location .oakdale {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
 }
